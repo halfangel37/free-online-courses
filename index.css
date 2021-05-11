@@ -1,0 +1,268 @@
+<<<<<<< HEAD
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5f5f7;
+}
+.container {
+  position: relative;
+  width: 1440px;
+  height: 900px;
+  background: rgb(63, 189, 63);
+  display: flex;
+}
+.left-menu {
+  position: absolute;
+  width: 132px;
+  height: 853.12px;
+  left: 32.34px;
+  top: 24.02px;
+  background-color: black;
+  border-radius: 24px;
+  text-align: center;
+}
+.left-menu-icon {
+}
+.F-icon {
+  margin-top: 50px;
+}
+.home-icon {
+  margin-top: 90px;
+}
+.icon-item {
+  margin-top: 60px;
+}
+.icon-last {
+  margin-top: 210px;
+}
+.middle-content {
+  left: 236.32px;
+  top: 24px;
+  position: relative;
+}
+/* .right-content{
+  width: 450px;
+  background-color: green;
+  height: 853.12px;
+  top: 24.02px;
+  left: 290px;
+  position: relative;
+} */
+.header {
+  position: absolute;
+  width: 620px;
+  height: 191.25px;
+  background-color: white;
+}
+.header-rectangle {
+  position: absolute;
+  width: 620px;
+  height: 160px;
+  background: #f5f5f7;
+  border-radius: 14px;
+  bottom: 0px;
+}
+.hello {
+  width: 178px;
+  height: 57px;
+  color: #000000;
+  font-family: "Baloo Bhai", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 57px;
+  margin-top: 46px;
+}
+h1,h2,h3 {
+  font-family: "Baloo Bhai", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+/* H1 */
+.to-see {
+  position: absolute;
+  width: 195px;
+  height: 24px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  bottom: 45px;
+}
+.header-content {
+  margin-left: 31.5px;
+}
+.illustration {
+  position: absolute;
+  left: 55.07%;
+}
+.my-course {
+  margin-top: 24px;
+  height: 80px;
+  width: 100%;
+}
+.my-course-rectangle {
+  position: absolute;
+  width: 500.26px;
+  height: 80px;
+  top: 220.34px;
+  background-color: #f5f5f7;
+  border-radius: 14px;
+  align-items: center;
+  display: flex;
+  padding-left: 8px;
+}
+.group23 {
+  display: flex;
+  background-color: white;
+  width: 55px;
+  height: 55px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.group23 img {
+  bottom: 0;
+}
+.my-course-content {
+  margin-left: 20px;
+}
+.spanish {
+  font-family: "Baloo Bhai", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+}
+.my-course-eclipse {
+  position: relative;
+  text-align: center;
+  padding-top: 4px;
+  margin-left: 42px;
+}
+.percent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.my-course-continue {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 40px;
+  background: #000000;
+  border-radius: 8px;
+  margin-left: 40px;
+}
+.arrow {
+  display: flex;
+  position: absolute;
+  top: 220.34px;
+  margin-left: 510px;
+  margin-top: 20px;
+}
+.arrow img {
+  margin-left: 15px;
+}
+/* ----------- */
+/* middle content course section*/
+.course-section {
+  height: 554.49px;
+  background-color: white;
+  width: 100%;
+  margin-top: 220px;
+}
+.head-tab{
+  display: flex;
+  font-family: "Baloo Bhai", sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+color: #000000;
+}
+.head-tab div:not(:first-child){
+  opacity: 0.3;
+}
+.head-tab div{
+  margin-right: 31px;
+}
+.view-tab{
+  height: 80px;
+  background-color: #f5f5f7;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+}
+.tab-icon-1 {
+  display: flex;
+  background-color: white;
+  width: 55px;
+  height: 55px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.tab-content {
+  margin-left: 20px;
+}
+.tab-title {
+  font-family: "Baloo Bhai", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+}
+.tab-time {
+  position: relative;
+  text-align: center;
+  padding-top: 4px;
+  margin-left: 42px;
+  font-size: 14px;
+}
+.tab-rated{
+  position: relative;
+  text-align: center;
+  padding-top: 4px;
+  margin-left: 42px;
+  font-size: 14px;
+}
+.view-course-buton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 40px;
+  background: #000000;
+  border-radius: 8px;
+  margin-left: 40px;
+=======
+body{
+margin: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+}
+.container {
+position: relative;
+width: 1440px;
+height: 900px;
+
+background: BLUE;
+  }
+.left-menu{
+    position: absolute;
+width: 132px;
+height: 853.12px;
+left: 32.34px;
+top: 24.02px;
+>>>>>>> main
+}
