@@ -1,30 +1,23 @@
-<<<<<<< HEAD
 body {
   margin: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  background-color: #f5f5f7;
+  
 }
 .container {
-  position: relative;
-  width: 1440px;
-  height: 900px;
-  background: rgb(63, 189, 63);
   display: flex;
+  padding-top: 1%;
+  justify-content: space-evenly;
+  
 }
 .left-menu {
-  position: absolute;
   width: 132px;
   height: 853.12px;
-  left: 32.34px;
-  top: 24.02px;
   background-color: black;
   border-radius: 24px;
   text-align: center;
 }
-.left-menu-icon {
+.left-menu-responsive
+{
+  display: none;
 }
 .F-icon {
   margin-top: 50px;
@@ -38,111 +31,90 @@ body {
 .icon-last {
   margin-top: 210px;
 }
-.middle-content {
-  left: 236.32px;
-  top: 24px;
-  position: relative;
-}
-/* .right-content{
-  width: 450px;
-  background-color: green;
-  height: 853.12px;
-  top: 24.02px;
-  left: 290px;
-  position: relative;
-} */
 .header {
   position: absolute;
-  width: 620px;
+  width: 45%;
   height: 191.25px;
   background-color: white;
 }
 .header-rectangle {
   position: absolute;
-  width: 620px;
+  width: 100%;
   height: 160px;
   background: #f5f5f7;
   border-radius: 14px;
   bottom: 0px;
 }
+/* H1 */
+h1,
+h2,
+h3 {
+  font-family: "Baloo Bhai", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
 .hello {
-  width: 178px;
   height: 57px;
   color: #000000;
   font-family: "Baloo Bhai", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 36px;
-  line-height: 57px;
-  margin-top: 46px;
+  font-size: 46px;
+  margin-bottom: 0px;
 }
-h1,h2,h3 {
-  font-family: "Baloo Bhai", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-}
-/* H1 */
+
 .to-see {
-  position: absolute;
-  width: 195px;
   height: 24px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  bottom: 45px;
+  font-size: 26px;
 }
 .header-content {
-  margin-left: 31.5px;
+  margin-left: 10%;
 }
 .illustration {
   position: absolute;
-  left: 55.07%;
+  left: 65.07%;
 }
 .my-course {
-  margin-top: 24px;
-  height: 80px;
-  width: 100%;
-}
-.my-course-rectangle {
+  margin-top: 0.5rem;
+  height: 90px;
+  width: 45%;
   position: absolute;
-  width: 500.26px;
-  height: 80px;
   top: 220.34px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.my-course-rectangle {
+  height: 90px;
+  width: 90%;
   background-color: #f5f5f7;
   border-radius: 14px;
   align-items: center;
   display: flex;
-  padding-left: 8px;
-}
-.group23 {
-  display: flex;
-  background-color: white;
-  width: 55px;
-  height: 55px;
-  align-items: center;
-  justify-content: center;
-  border-radius: 10px;
+  justify-content: space-around;
 }
 .group23 img {
   bottom: 0;
 }
 .my-course-content {
-  margin-left: 20px;
+  font-size: 20px;
+  margin-left: -1.8rem;
 }
 .spanish {
   font-family: "Baloo Bhai", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+
   line-height: 26px;
 }
 .my-course-eclipse {
   position: relative;
   text-align: center;
   padding-top: 4px;
-  margin-left: 42px;
 }
 .percent {
   position: absolute;
@@ -150,119 +122,246 @@ h1,h2,h3 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.my-course-continue {
+.button {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 120px;
-  height: 40px;
+  width: 130px;
+  height: 45px;
   background: #000000;
   border-radius: 8px;
-  margin-left: 40px;
+  font-size: 20px;
+  color: white;
 }
 .arrow {
   display: flex;
-  position: absolute;
-  top: 220.34px;
-  margin-left: 510px;
-  margin-top: 20px;
+  align-items: center;
+  height: auto;
 }
 .arrow img {
   margin-left: 15px;
 }
 /* ----------- */
+.middle-content {
+  width: 45%;
+  
+}
 /* middle content course section*/
 .course-section {
-  height: 554.49px;
+ 
+  height: auto;
   background-color: white;
-  width: 100%;
-  margin-top: 220px;
+  width:100%;
+  margin-top: 22rem;
+  font-size: 20px;
 }
-.head-tab{
+h1,
+h2 {
+  margin-bottom: 10px;
+}
+.head-tab,
+.statistic-section-heading {
   display: flex;
   font-family: "Baloo Bhai", sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 26px;
-color: #000000;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 26px;
+  color: #000000;
+  margin-bottom: 1rem;
 }
-.head-tab div:not(:first-child){
+.head-tab div:not(:first-child),
+.statistic-section-heading div:not(:first-child, :last-child) {
   opacity: 0.3;
 }
-.head-tab div{
+.head-tab div,
+.statistic-section-heading div:not(:last-child) {
   margin-right: 31px;
 }
-.view-tab{
-  height: 80px;
+.view-tab {
+  height: 90px;
   background-color: #f5f5f7;
   margin-bottom: 16px;
   display: flex;
   align-items: center;
+  justify-content: space-around;
+  border-radius: 14px;
 }
-.tab-icon-1 {
+.view-tab img {
+  width: 1.5rem;
+}
+.tab-icon-1 img {
+  width: 50%;
+}
+.tab-icon-1,
+.group23 {
   display: flex;
   background-color: white;
-  width: 55px;
-  height: 55px;
+  width: 65px;
+  height: 65px;
   align-items: center;
   justify-content: center;
   border-radius: 10px;
 }
 
 .tab-content {
-  margin-left: 20px;
+  width: 26%;
 }
 .tab-title {
   font-family: "Baloo Bhai", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
   line-height: 26px;
 }
-.tab-time {
+.tab-time,
+.tab-rated {
   position: relative;
   text-align: center;
-  padding-top: 4px;
-  margin-left: 42px;
-  font-size: 14px;
-}
-.tab-rated{
-  position: relative;
-  text-align: center;
-  padding-top: 4px;
-  margin-left: 42px;
-  font-size: 14px;
-}
-.view-course-buton {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 120px;
-  height: 40px;
-  background: #000000;
-  border-radius: 8px;
-  margin-left: 40px;
-=======
-body{
-margin: 0;
-display: flex;
-align-items: center;
-justify-content: center;
-height: 100vh;
+  justify-content: space-between;
 }
-.container {
-position: relative;
-width: 1440px;
-height: 900px;
+.duration {
+  text-align: left;
+  padding-top: 3px;
+  padding-left: 7px;
+  width: 6rem;
+}
+.rated {
+  padding-top: 6.5px;
+  padding-left: 7px;
+}
+/* right content */
+.right-content {
+  background-color: white;
+  width: 30%;
+  position: relative;
+}
+.search {
+  height: 43px;
+  width: 100%;
+  background-color: white;
+  align-items: center;
+  display: flex;
+}
+.search input {
+  height: 100%;
+  width: 70%;
+  background-color: #f5f5f7;
+  border-style: none;
+  border-radius: 8px;
+}
+.search img {
+  position: absolute;
+  margin-left: 15px;
+}
+#notifi {
+  right: 80px;
+}
+#avatar {
+  right: 15px;
+  width: 3rem;
+}
+#dropdown-icon {
+  right: 0;
+}
+.course-status {
+  display: flex;
+  /* justify-content: space-between; */
+  font-size: 30px;
+  margin-top: 2rem;
+}
+.course-comleted{
+  margin-right: 8%;
+}
+.course-comleted,
+.course-progress {
+  width: 260px;
+  height: 106.05px;
+  background-color: #f5f5f7;
+  border-radius: 14px;
+  justify-content: center;
+  align-items: center;
+}
+.course-status .content div {
+  font-size: 70px;
+  font-weight: 500;
+  font-family: "Baloo Bhai", sans-serif;
+}
+.course-status .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.course-status p {
+  font-size: 20px;
+  padding-left: 1rem;
+}
 
-background: BLUE;
-  }
-.left-menu{
-    position: absolute;
-width: 132px;
-height: 853.12px;
-left: 32.34px;
-top: 24.02px;
->>>>>>> main
+/* ----------- */
+
+/* statistic-section */
+
+.statistic-section {
+  height: auto;
+  width: 100%;
+}
+.statistic-section-heading {
+  display: flex;
+  height: 2rem;
+  justify-content: space-between;
+}
+.statistic-section-table {
+  height: auto;
+}
+.statistic-section-table img {
+  width: 105%;
+  height: auto;
+}
+.weekly {
+  background-color: #f5f5f7;
+  width: auto;
+  height: auto;
+  color: black;
+  font-size: 15px;
+  width: 5rem;
+  justify-content: center;
+  border-radius: 8px;
+  align-items: center;
+  display: flex;
+}
+.weekly img {
+  margin-left: 5px;
+}
+
+/* ---------------------------- */
+
+/* premium----css */
+.premium {
+  background-color: #f5f5f7;
+  width: auto;
+  height: auto;
+  display: flex;
+  margin-top: 3rem;
+  border-radius: 16px;
+}
+.learn-even-more {
+  margin-left: 5%;
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  font-size: 20px;
+}
+.premium .content {
+  font-size: 22px;
+  width: 15rem;
+}
+.premium .button {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.premium-icon {
+  display: flex;
+}
+.premium img {
+  width: 10rem;
 }
