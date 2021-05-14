@@ -1,6 +1,4 @@
 @media screen and (max-width: 1340px) {
-  .container {
-  }
   .left-menu {
     display: none;
   }
@@ -21,38 +19,172 @@
     align-items: center;
     width: 100%;
   }
-  .my-course {
-    top: 37%;
-  }
   .middle-content {
     width: 55%;
   }
   .right-content {
     width: 40%;
   }
-  .header {
-    
-    width: 55%;
-    
-  }
-  .my-course{
-      display: block;
-      width: 55%;
-  }
+
   .my-course-rectangle {
-      
-      width: 100%;
+    width: 100%;
   }
   .my-course-content {
-  
     margin-left: 0rem;
   }
   .arrow {
     margin-top: 5px;
   }
+  .statistic-section-table img {
+    width: 100%;
+    height: auto;
+  }
 }
 
-@media screen and (max-width: 767px) {
-
+@media screen and (max-width: 1100px) {
+  .container {
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .my-course {
+    top: 19rem;
+  }
+  .middle-content {
+    width: 100%;
+  }
+  .right-content {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .my-course {
+    display: flex;
+  }
+  .my-course-rectangle {
+    width: 100%;
+  }
+  .premium .content {
+    width: 100%;
+  }
 }
+@media screen and (max-width: 550px) {
+  .left-menu-icon-responsive img {
+    width: 80%;
+  }
+  .my-course {
+    display: block;
+  }
+  .header-content {
+    margin-left: 5%;
+  }
+  .hello {
+    font-size: 35px;
+    margin-top: 2rem;
+  }
 
+  .to-see {
+    font-size: 20px;
+    margin-top: -0.7rem;
+  }
+  .illustration {
+    width: 10rem;
+    left: 55%;
+  }
+
+  .my-course-content {
+    width: 30%;
+  }
+  .arrow img:not(:last-child) {
+    margin-left: 5px;
+  }
+  .course-section {
+    margin-top: 4rem;
+  }
+  .button {
+    width: 120px;
+    height: 50px;
+
+    line-height: 0.9;
+  }
+  .my-course-rectangle {
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .my-course-content {
+    width: 60%;
+  }
+  .view-tab {
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: space-around;
+  }
+  .tab-content {
+    
+    width: 70%;
+  }
+  .learn-even-more{
+    line-height: 1;
+  }
+  .head-tab div {
+    margin-right: 12px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .tab-content {
+    
+    width: 70%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .view-tab {
+    height: 11rem;
+  }
+  .my-course-content {
+    width: 45%;
+  }
+  .course-section {
+    margin-top: 6rem;
+  }
+  .hello {
+    width: 60%;
+    line-height: 1;
+    margin-top: 1rem;
+  }
+  .to-see {
+    font-size: 20px;
+    margin-top: 0rem;
+    width: 50%;
+  }
+  .illustration {
+    left: 42.07%;
+  }
+  .course-status .content div {
+    font-size: 50px;
+  }
+  .course-status p {
+    font-size: 18px;
+    padding-left: 1rem;
+  }
+  .course-comleted,
+.course-progress {
+ 
+  height: 76.05px;
+}
+  .premium {
+    flex-direction: column;
+  }
+  .learn-even-more {
+    width: 100%;
+   margin-left: 0%; 
+   text-align: center;
+  }
+
+  .premium-icon {
+    justify-content: center;
+    margin-top: 2rem;
+  }
+.premium .button{
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+}
